@@ -1,0 +1,61 @@
+/* Styling umum untuk grid */
+.grid {
+    display: grid;
+    grid-gap: 15px; /* Jarak antar elemen */
+    grid-template-columns: repeat(auto-fill, 200px);
+    margin: 20px;
+    justify-content: center; /* Pusatkan elemen secara horizontal */
+  }
+  
+  /* Styling umum untuk setiap kotak cursor */
+  .cursor {
+    height: 150px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end; /* Teks di bagian bawah */
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: overline; /* Dekorasi tambahan */
+    background: black; /* Default background */
+    cursor: default; /* Default cursor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi efek hover */
+  }
+  
+  /* Efek hover */
+  .cursor:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom styling untuk masing-masing cursor */
+  .cursor.default { background: black; cursor: default; }
+  .cursor.help { background: darkslategray; cursor: help; }
+  .cursor.pointer { background: gray; cursor: pointer; }
+  .cursor.progress { background: slategray; cursor: progress; }
+  .cursor.wait { background: mediumaquamarine; cursor: wait; }
+  .cursor.cell { background: darkseagreen; cursor: cell; }
+  .cursor.crosshair { background: forestgreen; cursor: crosshair; }
+  .cursor.text { background: midnightblue; cursor: text; }
+  .cursor.vertical-text { background: indigo; cursor: vertical-text; font-size: 22px; }
+  .cursor.alias { background: mediumslateblue; cursor: alias; }
+  .cursor.copy { background: turquoise; cursor: copy; }
+  .cursor.move { background: mediumseagreen; cursor: move; }
+  .cursor.no-drop { background: seagreen; cursor: no-drop; }
+  .cursor.grab { background: lightseagreen; cursor: grab; }
+  .cursor.grabbing { background: lightpink; cursor: grabbing; }
+  .cursor.all-scroll { background: lightcoral; cursor: all-scroll; }
+  .cursor.col-resize { background: mediumorchid; cursor: col-resize; }
+  .cursor.row-resize { background: maroon; cursor: row-resize; }
+  .cursor.ne-resize { background: saddlebrown; cursor: ne-resize; }
+  .cursor.nw-resize { background: peru; cursor: nw-resize; }
+  .cursor.ew-resize { background: rosybrown; cursor: ew-resize; }
+  .cursor.ns-resize { background: khaki; cursor: ns-resize; }
+  .cursor.zoom-in { background: gold; cursor: zoom-in; }
+  .cursor.zoom-out { background: orange; cursor: zoom-out; }
+  

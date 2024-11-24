@@ -1,0 +1,23 @@
+…or create a new repository on the command line
+
+echo "# Animated-Cursor" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GiraldoNainggolan/Animated-Cursor.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/GiraldoNainggolan/Animated-Cursor.git
+git branch -M main
+git push -u origin main
+
+
+
+tolong baguskan codingan ini dari web codepen, berikut bentuk htmlnya:
+
+(sourcenya)
+
+berikut bentuk cssnya:
